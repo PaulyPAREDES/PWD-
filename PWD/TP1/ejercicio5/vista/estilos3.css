@@ -1,0 +1,13 @@
+#form5{
+    margin-left:20px;
+    padding: 10px;
+}
+
+input[type="text"]{
+    height: 20px;
+    width: 170px;
+    margin: 10px;
+}
+div{
+    margin: 10px;  
+}
