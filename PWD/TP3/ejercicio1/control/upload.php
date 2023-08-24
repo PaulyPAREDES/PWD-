@@ -28,16 +28,14 @@ if ($_FILES['miArchivo']["size"] > 2000000) {
     $subirOk = false;
   }
 
-
-
 if ($subirOk == false) {
 
   echo "ERROR: no se pudo cargar el archivo";
 }else{
-  if (move_uploaded_file($_FILES['miArchivo']['tmp_name'],'archivos/'.$nombreArchivo)){
+  if (move_uploaded_file($_FILES['miArchivo']['tmp_name'],'../archivos/'.$nombreArchivo)){
     echo "El archivo ".$nombreArchivo." se ha sido subido con Éxito <br />";
     // escribir html en php se usa comillas simples
-    echo '<a href="archivos">Ver archivo</a>';
+    echo '<a href="../archivos/">Ver archivo</a>';
     
   }else{
     echo "Lo siento, hubo un error al cargar su archivo.";

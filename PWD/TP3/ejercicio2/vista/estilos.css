@@ -1,0 +1,24 @@
+.cargarTex{
+    background-color: rgb(148, 138, 113);
+    height: 200px;
+    width: 400px;
+    margin-left: 33%;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+#archivo{
+    padding:5px;
+
+}
+#abrir{
+    background-color: rgb(146, 152, 156);
+    padding: 5px;
+    margin-top: 10px;
+}

@@ -3,20 +3,19 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="estilos.css">
 <title>TP3 Ejercicio 2</title>
 </head>
 
 <body>
-
+<div class="cargarTex">
 <form method="post" action="../control/upload.php" enctype="multipart/form-data" >
-<label><strong>Cargar Archivo txt:</strong></label>
-<input name="miArchivo"  type="file" required />
-<br/>
-<br/>
-<input type="submit" value="Enviar Archivo" name="abrir">
+<h3>CARGAR ARCHIVO TEXT<h3>
+<input id="archivo" name="miArchivo"  type="file" required />
+<input type="submit" value="Enviar Archivo" name="abrir" id="abrir" />
 
 </form>
-
+</div>
 </body>
 
 </html>
